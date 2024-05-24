@@ -1,1 +1,1 @@
-<a href="http://localhost/cours_html/zoning2/zoning.php">homepage</a>
+homepage<a href="http://localhost/cours_html/zoning2/test.php"> click here</a>
