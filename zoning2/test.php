@@ -2,7 +2,7 @@
 
 <main>
     <form action="">
-        <h1>Formulaire</h1>
+        <div id="formh1"><h1>Formulaire</h1></div>
         <section class="form">
             <div class="class1">
                 <div>
@@ -35,14 +35,16 @@
                 </div>
             </div>
             <div>
-                <div>
-                    <label for="zipcode">Code postal</label>
-                    <input type="zipcode" id="zipcode" name="zipcode">
-                </div>
-                <div>
-                    <label for="message" class="message">Message</label>
-                    <textarea id="message" name="message" rows="5" cols="25"></textarea>
-                </div>
+                <section class="class3">
+                    <div>
+                        <label for="zipcode">Code postal</label>
+                        <input type="zipcode" id="zipcode" name="zipcode">
+                    </div>
+                    <div>
+                        <label for="message" class="message">Message</label>
+                        <textarea id="message" name="message" rows="5" cols="25"></textarea>
+                    </div>
+                </section>
             </div>
                 <div>
                 <input type="submit" value="Envoyer">
